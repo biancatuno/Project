@@ -1,0 +1,15 @@
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.exe
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.deps.json
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.runtimeconfig.json
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.runtimeconfig.dev.json
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.dll
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\bin\Debug\netcoreapp3.1\Project Calculator.pdb
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.csprojAssemblyReference.cache
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project_Calculator.Form1.resources
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.csproj.GenerateResource.cache
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.AssemblyInfoInputs.cache
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.AssemblyInfo.cs
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.csproj.CoreCompileInputs.cache
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.dll
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.pdb
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.genruntimeconfig.cache
