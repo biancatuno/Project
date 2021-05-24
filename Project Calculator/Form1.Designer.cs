@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace Project_Calculator
 {
     partial class Body
@@ -48,8 +50,8 @@ namespace Project_Calculator
             this.Equal = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
             this.ClearEntry = new System.Windows.Forms.Button();
-            this.txtbx1 = new System.Windows.Forms.TextBox();
             this.Result = new System.Windows.Forms.Label();
+            this.textbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Num1
@@ -226,6 +228,7 @@ namespace Project_Calculator
             this.Equal.TabIndex = 15;
             this.Equal.Text = "=";
             this.Equal.UseVisualStyleBackColor = true;
+            this.Equal.Click += new System.EventHandler(this.Equal_Click);
             // 
             // Clear
             // 
@@ -236,7 +239,7 @@ namespace Project_Calculator
             this.Clear.TabIndex = 16;
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = true;
-            this.Clear.Click += new System.EventHandler(this.button16_Click);
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // ClearEntry
             // 
@@ -247,37 +250,37 @@ namespace Project_Calculator
             this.ClearEntry.TabIndex = 17;
             this.ClearEntry.Text = "CE";
             this.ClearEntry.UseVisualStyleBackColor = true;
-            // 
-            // txtbx1
-            // 
-            this.txtbx1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtbx1.Location = new System.Drawing.Point(29, 89);
-            this.txtbx1.Name = "txtbx1";
-            this.txtbx1.Size = new System.Drawing.Size(386, 34);
-            this.txtbx1.TabIndex = 18;
-            this.txtbx1.Text = "0";
-            this.txtbx1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtbx1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.ClearEntry.Click += new System.EventHandler(this.ClearEntry_Click);
             // 
             // Result
             // 
             this.Result.AutoSize = true;
             this.Result.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Result.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Result.Location = new System.Drawing.Point(29, 58);
+            this.Result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Result.Location = new System.Drawing.Point(29, 45);
             this.Result.Name = "Result";
-            this.Result.Size = new System.Drawing.Size(70, 28);
+            this.Result.Size = new System.Drawing.Size(0, 38);
             this.Result.TabIndex = 19;
-            this.Result.Text = "label1";
             this.Result.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // textbox
+            // 
+            this.textbox.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textbox.Location = new System.Drawing.Point(29, 86);
+            this.textbox.Name = "textbox";
+            this.textbox.Size = new System.Drawing.Size(386, 40);
+            this.textbox.TabIndex = 20;
+            this.textbox.Text = "0";
+            this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textbox.TextChanged += new System.EventHandler(this.textbox_TextChanged);
             // 
             // Body
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 491);
+            this.Controls.Add(this.textbox);
             this.Controls.Add(this.Result);
-            this.Controls.Add(this.txtbx1);
             this.Controls.Add(this.ClearEntry);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.Equal);
@@ -328,9 +331,11 @@ namespace Project_Calculator
         private System.Windows.Forms.Button Equal;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button ClearEntry;
-        private System.Windows.Forms.TextBox txtbx1;
         private System.Windows.Forms.Label Result;
         private System.Windows.Forms.Button num;
+        private System.Windows.Forms.TextBox textbox;
+
+        public EventHandler textBox1_TextChanged { get; private set; }
     }
 }
 
