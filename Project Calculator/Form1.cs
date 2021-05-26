@@ -12,7 +12,7 @@ namespace Project_Calculator
 {
     public partial class Body : Form
     {
-        Double results = 0;
+        Double values = 0;
         String operation = "";
         bool OperationPerformed = false;
 
@@ -29,6 +29,12 @@ namespace Project_Calculator
 
             OperationPerformed = false;
             Button num = (Button)sender;
+            if (num.Text == ".")
+            {
+                if (!textbox.Text.Contains("."))
+                    textbox.Text = textbox.Text + num.Text;
+            }
+            else
             textbox.Text = textbox.Text + num.Text;
         }
 
@@ -45,10 +51,21 @@ namespace Project_Calculator
         private void operation_click(object sender, EventArgs e)
         {
             Button num = (Button)sender;
-            operation = num.Text;
-            results = Double.Parse(textbox.Text);
-            Result.Text = results + " " + operation;
-            OperationPerformed = true;
+            if (values != 0)
+            {
+                Equal.PerformClick();
+                operation = num.Text;
+                Result.Text = values + " " + operation;
+                OperationPerformed = true;
+            }
+            else
+            {
+
+                operation = num.Text;
+                values = Double.Parse(textbox.Text);
+                Result.Text = values + " " + operation;
+                OperationPerformed = true;
+            }
         }
 
 
@@ -65,7 +82,7 @@ namespace Project_Calculator
         private void Clear_Click(object sender, EventArgs e)
         {
             textbox.Text = "0";
-            results = 0;
+            values = 0;
         }
 
         private void Equal_Click(object sender, EventArgs e)
@@ -73,20 +90,22 @@ namespace Project_Calculator
             switch (operation)
             {
                 case "+":
-                    textbox.Text = (results + Double.Parse(textbox.Text)).ToString();
+                    textbox.Text = (values + Double.Parse(textbox.Text)).ToString();
                     break;
                 case "-":
-                    textbox.Text = (results - Double.Parse(textbox.Text)).ToString();
+                    textbox.Text = (values - Double.Parse(textbox.Text)).ToString();
                     break;
                 case "*":
-                    textbox.Text = (results * Double.Parse(textbox.Text)).ToString();
+                    textbox.Text = (values * Double.Parse(textbox.Text)).ToString();
                     break;
                 case "/":
-                    textbox.Text = (results / Double.Parse(textbox.Text)).ToString();
+                    textbox.Text = (values / Double.Parse(textbox.Text)).ToString();
                     break;
                 default:
                     break;
             }
+            values = Double.Parse(textbox.Text);
+            Result.Text = "";
         }
     }
 }
