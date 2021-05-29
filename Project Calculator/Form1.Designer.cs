@@ -255,9 +255,9 @@ namespace Project_Calculator
             // Result
             // 
             this.Result.AutoSize = true;
-            this.Result.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Result.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Result.Location = new System.Drawing.Point(29, 45);
+            this.Result.Location = new System.Drawing.Point(32, 35);
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(0, 38);
             this.Result.TabIndex = 19;
@@ -265,10 +265,10 @@ namespace Project_Calculator
             // 
             // textbox
             // 
-            this.textbox.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textbox.Location = new System.Drawing.Point(29, 86);
+            this.textbox.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textbox.Location = new System.Drawing.Point(29, 76);
             this.textbox.Name = "textbox";
-            this.textbox.Size = new System.Drawing.Size(386, 40);
+            this.textbox.Size = new System.Drawing.Size(386, 56);
             this.textbox.TabIndex = 20;
             this.textbox.Text = "0";
             this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -278,7 +278,8 @@ namespace Project_Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 491);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(440, 478);
             this.Controls.Add(this.textbox);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.ClearEntry);
