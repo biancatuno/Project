@@ -52,234 +52,357 @@ namespace Project_Calculator
             this.ClearEntry = new System.Windows.Forms.Button();
             this.Result = new System.Windows.Forms.Label();
             this.textbox = new System.Windows.Forms.TextBox();
+            this.signs = new System.Windows.Forms.Button();
+            this.fraction = new System.Windows.Forms.Button();
+            this.square = new System.Windows.Forms.Button();
+            this.squareroot = new System.Windows.Forms.Button();
+            this.percent = new System.Windows.Forms.Button();
+            this.backspace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Num1
             // 
-            this.Num1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num1.Location = new System.Drawing.Point(29, 302);
+            this.Num1.BackColor = System.Drawing.Color.Black;
+            this.Num1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num1.ForeColor = System.Drawing.Color.White;
+            this.Num1.Location = new System.Drawing.Point(15, 466);
             this.Num1.Name = "Num1";
-            this.Num1.Size = new System.Drawing.Size(70, 70);
+            this.Num1.Size = new System.Drawing.Size(101, 70);
             this.Num1.TabIndex = 0;
             this.Num1.Text = "1";
-            this.Num1.UseVisualStyleBackColor = true;
+            this.Num1.UseVisualStyleBackColor = false;
             this.Num1.Click += new System.EventHandler(this.button_Click);
             // 
             // Num2
             // 
-            this.Num2.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num2.Location = new System.Drawing.Point(105, 302);
+            this.Num2.BackColor = System.Drawing.Color.Black;
+            this.Num2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num2.ForeColor = System.Drawing.Color.White;
+            this.Num2.Location = new System.Drawing.Point(119, 466);
             this.Num2.Name = "Num2";
-            this.Num2.Size = new System.Drawing.Size(70, 70);
+            this.Num2.Size = new System.Drawing.Size(101, 70);
             this.Num2.TabIndex = 1;
             this.Num2.Text = "2";
-            this.Num2.UseVisualStyleBackColor = true;
+            this.Num2.UseVisualStyleBackColor = false;
             this.Num2.Click += new System.EventHandler(this.button_Click);
             // 
             // Num3
             // 
-            this.Num3.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num3.Location = new System.Drawing.Point(181, 302);
+            this.Num3.BackColor = System.Drawing.Color.Black;
+            this.Num3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num3.ForeColor = System.Drawing.Color.White;
+            this.Num3.Location = new System.Drawing.Point(223, 466);
             this.Num3.Name = "Num3";
-            this.Num3.Size = new System.Drawing.Size(70, 70);
+            this.Num3.Size = new System.Drawing.Size(101, 70);
             this.Num3.TabIndex = 2;
             this.Num3.Text = "3";
-            this.Num3.UseVisualStyleBackColor = true;
+            this.Num3.UseVisualStyleBackColor = false;
             this.Num3.Click += new System.EventHandler(this.button_Click);
             // 
             // Num4
             // 
-            this.Num4.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num4.Location = new System.Drawing.Point(29, 226);
+            this.Num4.BackColor = System.Drawing.Color.Black;
+            this.Num4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num4.ForeColor = System.Drawing.Color.White;
+            this.Num4.Location = new System.Drawing.Point(15, 393);
             this.Num4.Name = "Num4";
-            this.Num4.Size = new System.Drawing.Size(70, 70);
+            this.Num4.Size = new System.Drawing.Size(101, 70);
             this.Num4.TabIndex = 3;
             this.Num4.Text = "4";
-            this.Num4.UseVisualStyleBackColor = true;
+            this.Num4.UseVisualStyleBackColor = false;
             this.Num4.Click += new System.EventHandler(this.button_Click);
             // 
             // Num7
             // 
-            this.Num7.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num7.Location = new System.Drawing.Point(29, 150);
+            this.Num7.BackColor = System.Drawing.Color.Black;
+            this.Num7.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num7.ForeColor = System.Drawing.Color.White;
+            this.Num7.Location = new System.Drawing.Point(15, 320);
             this.Num7.Name = "Num7";
-            this.Num7.Size = new System.Drawing.Size(70, 70);
+            this.Num7.Size = new System.Drawing.Size(101, 70);
             this.Num7.TabIndex = 4;
             this.Num7.Text = "7";
-            this.Num7.UseVisualStyleBackColor = true;
+            this.Num7.UseVisualStyleBackColor = false;
             this.Num7.Click += new System.EventHandler(this.button_Click);
             // 
             // Num5
             // 
-            this.Num5.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num5.Location = new System.Drawing.Point(105, 226);
+            this.Num5.BackColor = System.Drawing.Color.Black;
+            this.Num5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num5.ForeColor = System.Drawing.Color.White;
+            this.Num5.Location = new System.Drawing.Point(119, 393);
             this.Num5.Name = "Num5";
-            this.Num5.Size = new System.Drawing.Size(70, 70);
+            this.Num5.Size = new System.Drawing.Size(101, 70);
             this.Num5.TabIndex = 5;
             this.Num5.Text = "5";
-            this.Num5.UseVisualStyleBackColor = true;
+            this.Num5.UseVisualStyleBackColor = false;
             this.Num5.Click += new System.EventHandler(this.button_Click);
             // 
             // Num6
             // 
-            this.Num6.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num6.Location = new System.Drawing.Point(181, 226);
+            this.Num6.BackColor = System.Drawing.Color.Black;
+            this.Num6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num6.ForeColor = System.Drawing.Color.White;
+            this.Num6.Location = new System.Drawing.Point(223, 393);
             this.Num6.Name = "Num6";
-            this.Num6.Size = new System.Drawing.Size(70, 70);
+            this.Num6.Size = new System.Drawing.Size(101, 70);
             this.Num6.TabIndex = 6;
             this.Num6.Text = "6";
-            this.Num6.UseVisualStyleBackColor = true;
+            this.Num6.UseVisualStyleBackColor = false;
             this.Num6.Click += new System.EventHandler(this.button_Click);
             // 
             // Num8
             // 
-            this.Num8.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num8.Location = new System.Drawing.Point(105, 150);
+            this.Num8.BackColor = System.Drawing.Color.Black;
+            this.Num8.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num8.ForeColor = System.Drawing.Color.White;
+            this.Num8.Location = new System.Drawing.Point(119, 320);
             this.Num8.Name = "Num8";
-            this.Num8.Size = new System.Drawing.Size(70, 70);
+            this.Num8.Size = new System.Drawing.Size(101, 70);
             this.Num8.TabIndex = 7;
             this.Num8.Text = "8";
-            this.Num8.UseVisualStyleBackColor = true;
+            this.Num8.UseVisualStyleBackColor = false;
             this.Num8.Click += new System.EventHandler(this.button_Click);
             // 
             // Num9
             // 
-            this.Num9.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num9.Location = new System.Drawing.Point(181, 150);
+            this.Num9.BackColor = System.Drawing.Color.Black;
+            this.Num9.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num9.ForeColor = System.Drawing.Color.White;
+            this.Num9.Location = new System.Drawing.Point(223, 320);
             this.Num9.Name = "Num9";
-            this.Num9.Size = new System.Drawing.Size(70, 70);
+            this.Num9.Size = new System.Drawing.Size(101, 70);
             this.Num9.TabIndex = 8;
             this.Num9.Text = "9";
-            this.Num9.UseVisualStyleBackColor = true;
+            this.Num9.UseVisualStyleBackColor = false;
             this.Num9.Click += new System.EventHandler(this.button_Click);
             // 
             // Minus
             // 
-            this.Minus.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Minus.Location = new System.Drawing.Point(257, 302);
+            this.Minus.BackColor = System.Drawing.Color.Gray;
+            this.Minus.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Minus.Location = new System.Drawing.Point(327, 393);
             this.Minus.Name = "Minus";
-            this.Minus.Size = new System.Drawing.Size(70, 70);
+            this.Minus.Size = new System.Drawing.Size(101, 70);
             this.Minus.TabIndex = 9;
             this.Minus.Text = "-";
-            this.Minus.UseVisualStyleBackColor = true;
+            this.Minus.UseVisualStyleBackColor = false;
             this.Minus.Click += new System.EventHandler(this.operation_click);
             // 
             // Multiply
             // 
-            this.Multiply.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Multiply.Location = new System.Drawing.Point(257, 226);
+            this.Multiply.BackColor = System.Drawing.Color.Gray;
+            this.Multiply.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Multiply.Location = new System.Drawing.Point(327, 320);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(70, 70);
+            this.Multiply.Size = new System.Drawing.Size(101, 70);
             this.Multiply.TabIndex = 10;
             this.Multiply.Text = "*";
-            this.Multiply.UseVisualStyleBackColor = true;
+            this.Multiply.UseVisualStyleBackColor = false;
             this.Multiply.Click += new System.EventHandler(this.operation_click);
             // 
             // Divide
             // 
-            this.Divide.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Divide.Location = new System.Drawing.Point(257, 150);
+            this.Divide.BackColor = System.Drawing.Color.Gray;
+            this.Divide.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Divide.ForeColor = System.Drawing.Color.Black;
+            this.Divide.Location = new System.Drawing.Point(327, 247);
             this.Divide.Name = "Divide";
-            this.Divide.Size = new System.Drawing.Size(70, 70);
+            this.Divide.Size = new System.Drawing.Size(101, 70);
             this.Divide.TabIndex = 11;
             this.Divide.Text = "/";
-            this.Divide.UseVisualStyleBackColor = true;
+            this.Divide.UseVisualStyleBackColor = false;
             this.Divide.Click += new System.EventHandler(this.operation_click);
             // 
             // Num0
             // 
-            this.Num0.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Num0.Location = new System.Drawing.Point(29, 378);
+            this.Num0.BackColor = System.Drawing.Color.Black;
+            this.Num0.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Num0.ForeColor = System.Drawing.Color.White;
+            this.Num0.Location = new System.Drawing.Point(119, 539);
             this.Num0.Name = "Num0";
-            this.Num0.Size = new System.Drawing.Size(146, 70);
+            this.Num0.Size = new System.Drawing.Size(101, 70);
             this.Num0.TabIndex = 12;
             this.Num0.Text = "0";
-            this.Num0.UseVisualStyleBackColor = true;
+            this.Num0.UseVisualStyleBackColor = false;
             this.Num0.Click += new System.EventHandler(this.button_Click);
             // 
             // Decimal
             // 
-            this.Decimal.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Decimal.Location = new System.Drawing.Point(181, 378);
+            this.Decimal.BackColor = System.Drawing.Color.Black;
+            this.Decimal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Decimal.ForeColor = System.Drawing.Color.White;
+            this.Decimal.Location = new System.Drawing.Point(223, 539);
             this.Decimal.Name = "Decimal";
-            this.Decimal.Size = new System.Drawing.Size(70, 70);
+            this.Decimal.Size = new System.Drawing.Size(101, 70);
             this.Decimal.TabIndex = 13;
             this.Decimal.Text = ".";
-            this.Decimal.UseVisualStyleBackColor = true;
+            this.Decimal.UseVisualStyleBackColor = false;
             this.Decimal.Click += new System.EventHandler(this.button_Click);
             // 
             // Add
             // 
-            this.Add.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Add.Location = new System.Drawing.Point(257, 378);
+            this.Add.BackColor = System.Drawing.Color.Gray;
+            this.Add.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Add.Location = new System.Drawing.Point(327, 466);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(70, 70);
+            this.Add.Size = new System.Drawing.Size(101, 70);
             this.Add.TabIndex = 14;
             this.Add.Text = "+";
-            this.Add.UseVisualStyleBackColor = true;
+            this.Add.UseVisualStyleBackColor = false;
             this.Add.Click += new System.EventHandler(this.operation_click);
             // 
             // Equal
             // 
-            this.Equal.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Equal.Location = new System.Drawing.Point(333, 302);
+            this.Equal.BackColor = System.Drawing.Color.Green;
+            this.Equal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Equal.ForeColor = System.Drawing.Color.White;
+            this.Equal.Location = new System.Drawing.Point(327, 539);
             this.Equal.Name = "Equal";
-            this.Equal.Size = new System.Drawing.Size(82, 146);
+            this.Equal.Size = new System.Drawing.Size(101, 70);
             this.Equal.TabIndex = 15;
             this.Equal.Text = "=";
-            this.Equal.UseVisualStyleBackColor = true;
+            this.Equal.UseVisualStyleBackColor = false;
             this.Equal.Click += new System.EventHandler(this.Equal_Click);
             // 
             // Clear
             // 
-            this.Clear.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Clear.Location = new System.Drawing.Point(333, 226);
+            this.Clear.BackColor = System.Drawing.Color.Gray;
+            this.Clear.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Clear.ForeColor = System.Drawing.Color.Black;
+            this.Clear.Location = new System.Drawing.Point(223, 174);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(82, 70);
+            this.Clear.Size = new System.Drawing.Size(101, 70);
             this.Clear.TabIndex = 16;
             this.Clear.Text = "C";
-            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.UseVisualStyleBackColor = false;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // ClearEntry
             // 
-            this.ClearEntry.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ClearEntry.Location = new System.Drawing.Point(333, 150);
+            this.ClearEntry.BackColor = System.Drawing.Color.Gray;
+            this.ClearEntry.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ClearEntry.ForeColor = System.Drawing.Color.Black;
+            this.ClearEntry.Location = new System.Drawing.Point(119, 174);
             this.ClearEntry.Name = "ClearEntry";
-            this.ClearEntry.Size = new System.Drawing.Size(82, 70);
+            this.ClearEntry.Size = new System.Drawing.Size(101, 70);
             this.ClearEntry.TabIndex = 17;
             this.ClearEntry.Text = "CE";
-            this.ClearEntry.UseVisualStyleBackColor = true;
+            this.ClearEntry.UseVisualStyleBackColor = false;
             this.ClearEntry.Click += new System.EventHandler(this.ClearEntry_Click);
             // 
             // Result
             // 
             this.Result.AutoSize = true;
-            this.Result.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Result.Location = new System.Drawing.Point(32, 35);
+            this.Result.ForeColor = System.Drawing.Color.White;
+            this.Result.Location = new System.Drawing.Point(391, 50);
             this.Result.Name = "Result";
+            this.Result.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Result.Size = new System.Drawing.Size(0, 38);
             this.Result.TabIndex = 19;
+            this.Result.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.Result.Click += new System.EventHandler(this.label1_Click);
             // 
             // textbox
             // 
-            this.textbox.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textbox.Location = new System.Drawing.Point(29, 76);
+            this.textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textbox.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textbox.ForeColor = System.Drawing.SystemColors.Info;
+            this.textbox.Location = new System.Drawing.Point(15, 82);
             this.textbox.Name = "textbox";
-            this.textbox.Size = new System.Drawing.Size(386, 56);
+            this.textbox.Size = new System.Drawing.Size(413, 74);
             this.textbox.TabIndex = 20;
             this.textbox.Text = "0";
             this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textbox.TextChanged += new System.EventHandler(this.textbox_TextChanged);
             // 
+            // signs
+            // 
+            this.signs.BackColor = System.Drawing.Color.Black;
+            this.signs.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.signs.ForeColor = System.Drawing.Color.White;
+            this.signs.Location = new System.Drawing.Point(15, 539);
+            this.signs.Name = "signs";
+            this.signs.Size = new System.Drawing.Size(101, 70);
+            this.signs.TabIndex = 21;
+            this.signs.Text = "+/-";
+            this.signs.UseVisualStyleBackColor = false;
+            // 
+            // fraction
+            // 
+            this.fraction.BackColor = System.Drawing.Color.Gray;
+            this.fraction.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.fraction.ForeColor = System.Drawing.Color.Black;
+            this.fraction.Location = new System.Drawing.Point(15, 247);
+            this.fraction.Name = "fraction";
+            this.fraction.Size = new System.Drawing.Size(101, 70);
+            this.fraction.TabIndex = 22;
+            this.fraction.Text = "1/x";
+            this.fraction.UseVisualStyleBackColor = false;
+            // 
+            // square
+            // 
+            this.square.BackColor = System.Drawing.Color.Gray;
+            this.square.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.square.ForeColor = System.Drawing.Color.Black;
+            this.square.Location = new System.Drawing.Point(119, 247);
+            this.square.Name = "square";
+            this.square.Size = new System.Drawing.Size(101, 70);
+            this.square.TabIndex = 23;
+            this.square.Text = "button3";
+            this.square.UseVisualStyleBackColor = false;
+            // 
+            // squareroot
+            // 
+            this.squareroot.BackColor = System.Drawing.Color.Gray;
+            this.squareroot.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.squareroot.ForeColor = System.Drawing.Color.Black;
+            this.squareroot.Location = new System.Drawing.Point(223, 247);
+            this.squareroot.Name = "squareroot";
+            this.squareroot.Size = new System.Drawing.Size(101, 70);
+            this.squareroot.TabIndex = 24;
+            this.squareroot.Text = "button4";
+            this.squareroot.UseVisualStyleBackColor = false;
+            // 
+            // percent
+            // 
+            this.percent.BackColor = System.Drawing.Color.Gray;
+            this.percent.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.percent.ForeColor = System.Drawing.Color.Black;
+            this.percent.Location = new System.Drawing.Point(15, 174);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(101, 70);
+            this.percent.TabIndex = 25;
+            this.percent.Text = "%";
+            this.percent.UseVisualStyleBackColor = false;
+            // 
+            // backspace
+            // 
+            this.backspace.BackColor = System.Drawing.Color.Gray;
+            this.backspace.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.backspace.ForeColor = System.Drawing.Color.Black;
+            this.backspace.Location = new System.Drawing.Point(327, 174);
+            this.backspace.Name = "backspace";
+            this.backspace.Size = new System.Drawing.Size(101, 70);
+            this.backspace.TabIndex = 26;
+            this.backspace.Text = "button6";
+            this.backspace.UseVisualStyleBackColor = false;
+            // 
             // Body
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(440, 478);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(446, 629);
+            this.Controls.Add(this.backspace);
+            this.Controls.Add(this.percent);
+            this.Controls.Add(this.squareroot);
+            this.Controls.Add(this.square);
+            this.Controls.Add(this.fraction);
+            this.Controls.Add(this.signs);
             this.Controls.Add(this.textbox);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.ClearEntry);
@@ -305,7 +428,7 @@ namespace Project_Calculator
             this.MaximizeBox = false;
             this.Name = "Body";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculator";
+            this.Text = "r";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -335,6 +458,12 @@ namespace Project_Calculator
         private System.Windows.Forms.Label Result;
         private System.Windows.Forms.Button num;
         private System.Windows.Forms.TextBox textbox;
+        private System.Windows.Forms.Button signs;
+        private System.Windows.Forms.Button fraction;
+        private System.Windows.Forms.Button square;
+        private System.Windows.Forms.Button squareroot;
+        private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button backspace;
 
         public EventHandler textBox1_TextChanged { get; private set; }
     }
