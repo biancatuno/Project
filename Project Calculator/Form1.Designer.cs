@@ -57,7 +57,6 @@ namespace Project_Calculator
             this.square = new System.Windows.Forms.Button();
             this.squareroot = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
-            this.backspace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Num1
@@ -181,7 +180,7 @@ namespace Project_Calculator
             // 
             this.Minus.BackColor = System.Drawing.Color.Gray;
             this.Minus.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Minus.Location = new System.Drawing.Point(327, 393);
+            this.Minus.Location = new System.Drawing.Point(327, 320);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(101, 70);
             this.Minus.TabIndex = 9;
@@ -193,7 +192,7 @@ namespace Project_Calculator
             // 
             this.Multiply.BackColor = System.Drawing.Color.Gray;
             this.Multiply.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Multiply.Location = new System.Drawing.Point(327, 320);
+            this.Multiply.Location = new System.Drawing.Point(327, 250);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(101, 70);
             this.Multiply.TabIndex = 10;
@@ -206,7 +205,7 @@ namespace Project_Calculator
             this.Divide.BackColor = System.Drawing.Color.Gray;
             this.Divide.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Divide.ForeColor = System.Drawing.Color.Black;
-            this.Divide.Location = new System.Drawing.Point(327, 247);
+            this.Divide.Location = new System.Drawing.Point(327, 174);
             this.Divide.Name = "Divide";
             this.Divide.Size = new System.Drawing.Size(101, 70);
             this.Divide.TabIndex = 11;
@@ -299,10 +298,9 @@ namespace Project_Calculator
             this.Result.ForeColor = System.Drawing.Color.White;
             this.Result.Location = new System.Drawing.Point(391, 50);
             this.Result.Name = "Result";
-            this.Result.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Result.Size = new System.Drawing.Size(0, 38);
             this.Result.TabIndex = 19;
-            this.Result.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.Result.Click += new System.EventHandler(this.label1_Click);
             // 
             // textbox
@@ -330,6 +328,7 @@ namespace Project_Calculator
             this.signs.TabIndex = 21;
             this.signs.Text = "+/-";
             this.signs.UseVisualStyleBackColor = false;
+            this.signs.Click += new System.EventHandler(this.operation_click);
             // 
             // fraction
             // 
@@ -352,7 +351,7 @@ namespace Project_Calculator
             this.square.Name = "square";
             this.square.Size = new System.Drawing.Size(101, 70);
             this.square.TabIndex = 23;
-            this.square.Text = "button3";
+            this.square.Text = "x^2";
             this.square.UseVisualStyleBackColor = false;
             // 
             // squareroot
@@ -364,7 +363,7 @@ namespace Project_Calculator
             this.squareroot.Name = "squareroot";
             this.squareroot.Size = new System.Drawing.Size(101, 70);
             this.squareroot.TabIndex = 24;
-            this.squareroot.Text = "button4";
+            this.squareroot.Text = "√";
             this.squareroot.UseVisualStyleBackColor = false;
             // 
             // percent
@@ -378,18 +377,7 @@ namespace Project_Calculator
             this.percent.TabIndex = 25;
             this.percent.Text = "%";
             this.percent.UseVisualStyleBackColor = false;
-            // 
-            // backspace
-            // 
-            this.backspace.BackColor = System.Drawing.Color.Gray;
-            this.backspace.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.backspace.ForeColor = System.Drawing.Color.Black;
-            this.backspace.Location = new System.Drawing.Point(327, 174);
-            this.backspace.Name = "backspace";
-            this.backspace.Size = new System.Drawing.Size(101, 70);
-            this.backspace.TabIndex = 26;
-            this.backspace.Text = "button6";
-            this.backspace.UseVisualStyleBackColor = false;
+            this.percent.Click += new System.EventHandler(this.operation_click);
             // 
             // Body
             // 
@@ -397,7 +385,6 @@ namespace Project_Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(446, 629);
-            this.Controls.Add(this.backspace);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.squareroot);
             this.Controls.Add(this.square);
@@ -428,7 +415,7 @@ namespace Project_Calculator
             this.MaximizeBox = false;
             this.Name = "Body";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "r";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -463,7 +450,6 @@ namespace Project_Calculator
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button squareroot;
         private System.Windows.Forms.Button percent;
-        private System.Windows.Forms.Button backspace;
 
         public EventHandler textBox1_TextChanged { get; private set; }
     }

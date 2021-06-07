@@ -101,6 +101,9 @@ namespace Project_Calculator
                 case "/":
                     textbox.Text = (values / Double.Parse(textbox.Text)).ToString();
                     break;
+                case "%":
+                    textbox.Text = (values % Double.Parse(textbox.Text)).ToString();
+                    break;
                 default:
                     break;
             }
