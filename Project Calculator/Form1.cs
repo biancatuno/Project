@@ -104,6 +104,14 @@ namespace Project_Calculator
                 case "%":
                     textbox.Text = (values % Double.Parse(textbox.Text)).ToString();
                     break;
+                case "p":
+                    textbox.Text = (Math.Pow(values, Double.Parse(textbox.Text))).ToString();
+                    break;
+                case "f":
+                    textbox.Text = (1 / values).ToString();
+                    break;
+
+
                 default:
                     break;
             }

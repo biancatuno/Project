@@ -192,7 +192,7 @@ namespace Project_Calculator
             // 
             this.Multiply.BackColor = System.Drawing.Color.Gray;
             this.Multiply.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Multiply.Location = new System.Drawing.Point(327, 250);
+            this.Multiply.Location = new System.Drawing.Point(327, 247);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(101, 70);
             this.Multiply.TabIndex = 10;
@@ -243,7 +243,7 @@ namespace Project_Calculator
             // 
             this.Add.BackColor = System.Drawing.Color.Gray;
             this.Add.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Add.Location = new System.Drawing.Point(327, 466);
+            this.Add.Location = new System.Drawing.Point(327, 393);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(101, 70);
             this.Add.TabIndex = 14;
@@ -256,9 +256,9 @@ namespace Project_Calculator
             this.Equal.BackColor = System.Drawing.Color.Green;
             this.Equal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Equal.ForeColor = System.Drawing.Color.White;
-            this.Equal.Location = new System.Drawing.Point(327, 539);
+            this.Equal.Location = new System.Drawing.Point(327, 466);
             this.Equal.Name = "Equal";
-            this.Equal.Size = new System.Drawing.Size(101, 70);
+            this.Equal.Size = new System.Drawing.Size(101, 143);
             this.Equal.TabIndex = 15;
             this.Equal.Text = "=";
             this.Equal.UseVisualStyleBackColor = false;
@@ -296,7 +296,7 @@ namespace Project_Calculator
             this.Result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Result.ForeColor = System.Drawing.Color.White;
-            this.Result.Location = new System.Drawing.Point(391, 50);
+            this.Result.Location = new System.Drawing.Point(361, 52);
             this.Result.Name = "Result";
             this.Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Result.Size = new System.Drawing.Size(0, 38);
@@ -341,6 +341,7 @@ namespace Project_Calculator
             this.fraction.TabIndex = 22;
             this.fraction.Text = "1/x";
             this.fraction.UseVisualStyleBackColor = false;
+            this.fraction.Click += new System.EventHandler(this.operation_click);
             // 
             // square
             // 
@@ -351,8 +352,9 @@ namespace Project_Calculator
             this.square.Name = "square";
             this.square.Size = new System.Drawing.Size(101, 70);
             this.square.TabIndex = 23;
-            this.square.Text = "x^2";
+            this.square.Text = "^2";
             this.square.UseVisualStyleBackColor = false;
+            this.square.Click += new System.EventHandler(this.operation_click);
             // 
             // squareroot
             // 
