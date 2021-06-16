@@ -40,12 +40,12 @@ namespace Project_Calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void operation_click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace Project_Calculator
 
         private void textbox_TextChanged(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void ClearEntry_Click(object sender, EventArgs e)
@@ -104,13 +104,15 @@ namespace Project_Calculator
                 case "%":
                     textbox.Text = (values % Double.Parse(textbox.Text)).ToString();
                     break;
-                case "p":
+                case "x^2":
                     textbox.Text = (Math.Pow(values, Double.Parse(textbox.Text))).ToString();
                     break;
-                case "f":
+                case "1/x":
                     textbox.Text = (1 / values).ToString();
                     break;
-
+                case "√":
+                    textbox.Text = (Math.Sqrt(Double.Parse(textbox.Text))).ToString();
+                    break;
 
                 default:
                     break;

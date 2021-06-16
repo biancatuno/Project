@@ -52,7 +52,6 @@ namespace Project_Calculator
             this.ClearEntry = new System.Windows.Forms.Button();
             this.Result = new System.Windows.Forms.Label();
             this.textbox = new System.Windows.Forms.TextBox();
-            this.signs = new System.Windows.Forms.Button();
             this.fraction = new System.Windows.Forms.Button();
             this.square = new System.Windows.Forms.Button();
             this.squareroot = new System.Windows.Forms.Button();
@@ -218,9 +217,9 @@ namespace Project_Calculator
             this.Num0.BackColor = System.Drawing.Color.Black;
             this.Num0.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num0.ForeColor = System.Drawing.Color.White;
-            this.Num0.Location = new System.Drawing.Point(119, 539);
+            this.Num0.Location = new System.Drawing.Point(15, 539);
             this.Num0.Name = "Num0";
-            this.Num0.Size = new System.Drawing.Size(101, 70);
+            this.Num0.Size = new System.Drawing.Size(205, 70);
             this.Num0.TabIndex = 12;
             this.Num0.Text = "0";
             this.Num0.UseVisualStyleBackColor = false;
@@ -317,19 +316,6 @@ namespace Project_Calculator
             this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textbox.TextChanged += new System.EventHandler(this.textbox_TextChanged);
             // 
-            // signs
-            // 
-            this.signs.BackColor = System.Drawing.Color.Black;
-            this.signs.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.signs.ForeColor = System.Drawing.Color.White;
-            this.signs.Location = new System.Drawing.Point(15, 539);
-            this.signs.Name = "signs";
-            this.signs.Size = new System.Drawing.Size(101, 70);
-            this.signs.TabIndex = 21;
-            this.signs.Text = "+/-";
-            this.signs.UseVisualStyleBackColor = false;
-            this.signs.Click += new System.EventHandler(this.operation_click);
-            // 
             // fraction
             // 
             this.fraction.BackColor = System.Drawing.Color.Gray;
@@ -352,7 +338,7 @@ namespace Project_Calculator
             this.square.Name = "square";
             this.square.Size = new System.Drawing.Size(101, 70);
             this.square.TabIndex = 23;
-            this.square.Text = "^2";
+            this.square.Text = "x^2";
             this.square.UseVisualStyleBackColor = false;
             this.square.Click += new System.EventHandler(this.operation_click);
             // 
@@ -367,6 +353,7 @@ namespace Project_Calculator
             this.squareroot.TabIndex = 24;
             this.squareroot.Text = "√";
             this.squareroot.UseVisualStyleBackColor = false;
+            this.squareroot.Click += new System.EventHandler(this.operation_click);
             // 
             // percent
             // 
@@ -391,7 +378,6 @@ namespace Project_Calculator
             this.Controls.Add(this.squareroot);
             this.Controls.Add(this.square);
             this.Controls.Add(this.fraction);
-            this.Controls.Add(this.signs);
             this.Controls.Add(this.textbox);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.ClearEntry);
@@ -447,7 +433,6 @@ namespace Project_Calculator
         private System.Windows.Forms.Label Result;
         private System.Windows.Forms.Button num;
         private System.Windows.Forms.TextBox textbox;
-        private System.Windows.Forms.Button signs;
         private System.Windows.Forms.Button fraction;
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button squareroot;
