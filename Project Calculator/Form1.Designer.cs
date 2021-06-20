@@ -338,7 +338,7 @@ namespace Project_Calculator
             this.square.Name = "square";
             this.square.Size = new System.Drawing.Size(101, 70);
             this.square.TabIndex = 23;
-            this.square.Text = "x^2";
+            this.square.Text = "^";
             this.square.UseVisualStyleBackColor = false;
             this.square.Click += new System.EventHandler(this.operation_click);
             // 
