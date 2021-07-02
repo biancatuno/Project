@@ -137,7 +137,7 @@ namespace Project_Calculator
         // Memory Add Button
         private void MPlus_Click(object sender, EventArgs e)
         {
-
+            memory_button += Double.Parse(textbox.Text);
         }
 
         //Memory Subtract Button
