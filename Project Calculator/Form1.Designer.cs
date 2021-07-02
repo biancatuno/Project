@@ -405,6 +405,7 @@ namespace Project_Calculator
             this.MClear.TabIndex = 26;
             this.MClear.Text = "MC";
             this.MClear.UseVisualStyleBackColor = false;
+            this.MClear.Click += new System.EventHandler(this.MClear_Click);
             // 
             // MSaved
             // 
@@ -432,6 +433,7 @@ namespace Project_Calculator
             this.MRead.TabIndex = 28;
             this.MRead.Text = "MR";
             this.MRead.UseVisualStyleBackColor = false;
+            this.MRead.Click += new System.EventHandler(this.MRead_Click);
             // 
             // MPlus
             // 
@@ -445,6 +447,7 @@ namespace Project_Calculator
             this.MPlus.TabIndex = 29;
             this.MPlus.Text = "M+";
             this.MPlus.UseVisualStyleBackColor = false;
+            this.MPlus.Click += new System.EventHandler(this.MPlus_Click);
             // 
             // MSubtract
             // 
@@ -458,6 +461,7 @@ namespace Project_Calculator
             this.MSubtract.TabIndex = 30;
             this.MSubtract.Text = "M-";
             this.MSubtract.UseVisualStyleBackColor = false;
+            this.MSubtract.Click += new System.EventHandler(this.MSubtract_Click);
             // 
             // Body
             // 

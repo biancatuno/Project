@@ -118,6 +118,33 @@ namespace Project_Calculator
             MClear.Enabled = true;
             MRead.Enabled = true;
         }
+
+        // Memory Clear Button
+        private void MClear_Click(object sender, EventArgs e)
+        {
+            textbox.Text = "0";
+            memory_button = 0;
+            MClear.Enabled = false;
+            MRead.Enabled = false;
+        }
+
+        // Memory Read Button
+        private void MRead_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // Memory Add Button
+        private void MPlus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //Memory Subtract Button
+        private void MSubtract_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
