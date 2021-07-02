@@ -131,7 +131,7 @@ namespace Project_Calculator
         // Memory Read Button
         private void MRead_Click(object sender, EventArgs e)
         {
-
+            textbox.Text = memory_button.ToString();
         }
 
         // Memory Add Button
