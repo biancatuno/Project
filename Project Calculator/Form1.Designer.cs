@@ -300,7 +300,6 @@ namespace Project_Calculator
             this.Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Result.Size = new System.Drawing.Size(0, 38);
             this.Result.TabIndex = 19;
-            this.Result.Click += new System.EventHandler(this.label1_Click);
             // 
             // textbox
             // 
@@ -314,7 +313,6 @@ namespace Project_Calculator
             this.textbox.TabIndex = 20;
             this.textbox.Text = "0";
             this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textbox.TextChanged += new System.EventHandler(this.textbox_TextChanged);
             // 
             // fraction
             // 
@@ -404,7 +402,6 @@ namespace Project_Calculator
             this.Name = "Body";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

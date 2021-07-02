@@ -16,7 +16,6 @@ namespace Project_Calculator
         String operation = "";
         bool OperationPerformed = false;
 
-
         public Body()
         {
             InitializeComponent();
@@ -38,16 +37,6 @@ namespace Project_Calculator
             textbox.Text = textbox.Text + num.Text;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            //
-        }
-
         private void operation_click(object sender, EventArgs e)
         {
             Button num = (Button)sender;
@@ -66,12 +55,6 @@ namespace Project_Calculator
                 Result.Text = values + " " + operation;
                 OperationPerformed = true;
             }
-        }
-
-
-        private void textbox_TextChanged(object sender, EventArgs e)
-        {
-            //
         }
 
         private void ClearEntry_Click(object sender, EventArgs e)
