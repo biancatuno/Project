@@ -12,3 +12,4 @@ D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project
 D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.pdb
 D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project Calculator.genruntimeconfig.cache
 D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project_Calculator.Body.resources
+D:\2 kool 4 iskul\OOP\PROJECT\Project Calculator\obj\Debug\netcoreapp3.1\Project_Calculator.Properties.Resources.resources

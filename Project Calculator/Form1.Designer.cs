@@ -183,6 +183,7 @@ namespace Project_Calculator
             // Minus
             // 
             this.Minus.BackColor = System.Drawing.Color.Gray;
+            this.Minus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Minus.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Minus.Location = new System.Drawing.Point(327, 342);
             this.Minus.Name = "Minus";
@@ -195,6 +196,7 @@ namespace Project_Calculator
             // Multiply
             // 
             this.Multiply.BackColor = System.Drawing.Color.Gray;
+            this.Multiply.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Multiply.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Multiply.Location = new System.Drawing.Point(327, 282);
             this.Multiply.Name = "Multiply";
@@ -207,11 +209,12 @@ namespace Project_Calculator
             // Divide
             // 
             this.Divide.BackColor = System.Drawing.Color.Gray;
+            this.Divide.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Divide.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Divide.ForeColor = System.Drawing.Color.Black;
-            this.Divide.Location = new System.Drawing.Point(327, 223);
+            this.Divide.Location = new System.Drawing.Point(327, 213);
             this.Divide.Name = "Divide";
-            this.Divide.Size = new System.Drawing.Size(101, 53);
+            this.Divide.Size = new System.Drawing.Size(101, 63);
             this.Divide.TabIndex = 11;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = false;
@@ -246,6 +249,7 @@ namespace Project_Calculator
             // Add
             // 
             this.Add.BackColor = System.Drawing.Color.Gray;
+            this.Add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Add.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Add.Location = new System.Drawing.Point(327, 406);
             this.Add.Name = "Add";
@@ -258,6 +262,7 @@ namespace Project_Calculator
             // Equal
             // 
             this.Equal.BackColor = System.Drawing.Color.Green;
+            this.Equal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Equal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Equal.ForeColor = System.Drawing.Color.White;
             this.Equal.Location = new System.Drawing.Point(327, 469);
@@ -271,11 +276,12 @@ namespace Project_Calculator
             // Clear
             // 
             this.Clear.BackColor = System.Drawing.Color.Gray;
+            this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Clear.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Clear.ForeColor = System.Drawing.Color.Black;
-            this.Clear.Location = new System.Drawing.Point(223, 223);
+            this.Clear.Location = new System.Drawing.Point(223, 213);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(101, 53);
+            this.Clear.Size = new System.Drawing.Size(101, 63);
             this.Clear.TabIndex = 16;
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = false;
@@ -284,11 +290,12 @@ namespace Project_Calculator
             // ClearEntry
             // 
             this.ClearEntry.BackColor = System.Drawing.Color.Gray;
+            this.ClearEntry.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ClearEntry.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ClearEntry.ForeColor = System.Drawing.Color.Black;
-            this.ClearEntry.Location = new System.Drawing.Point(119, 223);
+            this.ClearEntry.Location = new System.Drawing.Point(119, 213);
             this.ClearEntry.Name = "ClearEntry";
-            this.ClearEntry.Size = new System.Drawing.Size(101, 53);
+            this.ClearEntry.Size = new System.Drawing.Size(101, 63);
             this.ClearEntry.TabIndex = 17;
             this.ClearEntry.Text = "CE";
             this.ClearEntry.UseVisualStyleBackColor = false;
@@ -300,7 +307,7 @@ namespace Project_Calculator
             this.Result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Result.ForeColor = System.Drawing.Color.White;
-            this.Result.Location = new System.Drawing.Point(361, 52);
+            this.Result.Location = new System.Drawing.Point(327, 25);
             this.Result.Name = "Result";
             this.Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Result.Size = new System.Drawing.Size(0, 38);
@@ -310,11 +317,11 @@ namespace Project_Calculator
             // 
             this.textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textbox.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textbox.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textbox.ForeColor = System.Drawing.SystemColors.Info;
-            this.textbox.Location = new System.Drawing.Point(15, 82);
+            this.textbox.Location = new System.Drawing.Point(16, 62);
             this.textbox.Name = "textbox";
-            this.textbox.Size = new System.Drawing.Size(413, 74);
+            this.textbox.Size = new System.Drawing.Size(413, 98);
             this.textbox.TabIndex = 20;
             this.textbox.Text = "0";
             this.textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -322,6 +329,7 @@ namespace Project_Calculator
             // fraction
             // 
             this.fraction.BackColor = System.Drawing.Color.Gray;
+            this.fraction.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.fraction.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.fraction.ForeColor = System.Drawing.Color.Black;
             this.fraction.Location = new System.Drawing.Point(15, 282);
@@ -335,6 +343,7 @@ namespace Project_Calculator
             // square
             // 
             this.square.BackColor = System.Drawing.Color.Gray;
+            this.square.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.square.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.square.ForeColor = System.Drawing.Color.Black;
             this.square.Location = new System.Drawing.Point(119, 282);
@@ -348,6 +357,7 @@ namespace Project_Calculator
             // squareroot
             // 
             this.squareroot.BackColor = System.Drawing.Color.Gray;
+            this.squareroot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.squareroot.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.squareroot.ForeColor = System.Drawing.Color.Black;
             this.squareroot.Location = new System.Drawing.Point(223, 282);
@@ -361,11 +371,12 @@ namespace Project_Calculator
             // percent
             // 
             this.percent.BackColor = System.Drawing.Color.Gray;
+            this.percent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.percent.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.percent.ForeColor = System.Drawing.Color.Black;
-            this.percent.Location = new System.Drawing.Point(15, 223);
+            this.percent.Location = new System.Drawing.Point(15, 213);
             this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(101, 54);
+            this.percent.Size = new System.Drawing.Size(101, 64);
             this.percent.TabIndex = 25;
             this.percent.Text = "%";
             this.percent.UseVisualStyleBackColor = false;
@@ -374,11 +385,12 @@ namespace Project_Calculator
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(16, 163);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(18, 166);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 54);
+            this.button1.Size = new System.Drawing.Size(78, 41);
             this.button1.TabIndex = 26;
             this.button1.Text = "MC";
             this.button1.UseVisualStyleBackColor = false;
@@ -386,11 +398,12 @@ namespace Project_Calculator
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Gray;
-            this.button2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(351, 163);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(352, 166);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 54);
+            this.button2.Size = new System.Drawing.Size(76, 41);
             this.button2.TabIndex = 27;
             this.button2.Text = "MS";
             this.button2.UseVisualStyleBackColor = false;
@@ -398,11 +411,12 @@ namespace Project_Calculator
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Gray;
-            this.button3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(100, 163);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(102, 166);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 54);
+            this.button3.Size = new System.Drawing.Size(78, 41);
             this.button3.TabIndex = 28;
             this.button3.Text = "MR";
             this.button3.UseVisualStyleBackColor = false;
@@ -410,11 +424,12 @@ namespace Project_Calculator
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Gray;
-            this.button4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(184, 163);
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(186, 166);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(78, 54);
+            this.button4.Size = new System.Drawing.Size(78, 41);
             this.button4.TabIndex = 29;
             this.button4.Text = "M+";
             this.button4.UseVisualStyleBackColor = false;
@@ -422,11 +437,12 @@ namespace Project_Calculator
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gray;
-            this.button5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(267, 163);
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(269, 166);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(78, 54);
+            this.button5.Size = new System.Drawing.Size(78, 41);
             this.button5.TabIndex = 30;
             this.button5.Text = "M-";
             this.button5.UseVisualStyleBackColor = false;
