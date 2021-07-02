@@ -137,13 +137,15 @@ namespace Project_Calculator
         // Memory Add Button
         private void MPlus_Click(object sender, EventArgs e)
         {
-            memory_button += Double.Parse(textbox.Text);
+            memory_button = memory_button + Double.Parse(textbox.Text);
+            MRead.Enabled = true;
         }
 
         //Memory Subtract Button
         private void MSubtract_Click(object sender, EventArgs e)
         {
-            memory_button -= Double.Parse(textbox.Text);
+            memory_button = memory_button - Double.Parse(textbox.Text);
+            MRead.Enabled = true;
         }
     }
 }
