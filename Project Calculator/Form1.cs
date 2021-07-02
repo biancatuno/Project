@@ -143,7 +143,7 @@ namespace Project_Calculator
         //Memory Subtract Button
         private void MSubtract_Click(object sender, EventArgs e)
         {
-
+            memory_button -= Double.Parse(textbox.Text);
         }
     }
 }
