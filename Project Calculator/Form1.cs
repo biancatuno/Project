@@ -85,7 +85,7 @@ namespace Project_Calculator
                     textbox.Text = (values / Double.Parse(textbox.Text)).ToString();
                     break;
                 case "%":
-                    textbox.Text = (values % Double.Parse(textbox.Text)).ToString();
+                    textbox.Text = (values / 100).ToString();
                     break;
                 case "^":
                     textbox.Text = (Math.Pow(values, Double.Parse(textbox.Text))).ToString();
