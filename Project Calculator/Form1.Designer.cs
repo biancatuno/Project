@@ -56,16 +56,17 @@ namespace Project_Calculator
             this.square = new System.Windows.Forms.Button();
             this.squareroot = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.MClear = new System.Windows.Forms.Button();
+            this.MSaved = new System.Windows.Forms.Button();
+            this.MRead = new System.Windows.Forms.Button();
+            this.MPlus = new System.Windows.Forms.Button();
+            this.MSubtract = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Num1
             // 
             this.Num1.BackColor = System.Drawing.Color.Black;
+            this.Num1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num1.ForeColor = System.Drawing.Color.White;
             this.Num1.Location = new System.Drawing.Point(15, 469);
@@ -79,6 +80,7 @@ namespace Project_Calculator
             // Num2
             // 
             this.Num2.BackColor = System.Drawing.Color.Black;
+            this.Num2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num2.ForeColor = System.Drawing.Color.White;
             this.Num2.Location = new System.Drawing.Point(119, 469);
@@ -92,6 +94,7 @@ namespace Project_Calculator
             // Num3
             // 
             this.Num3.BackColor = System.Drawing.Color.Black;
+            this.Num3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num3.ForeColor = System.Drawing.Color.White;
             this.Num3.Location = new System.Drawing.Point(223, 469);
@@ -105,6 +108,7 @@ namespace Project_Calculator
             // Num4
             // 
             this.Num4.BackColor = System.Drawing.Color.Black;
+            this.Num4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num4.ForeColor = System.Drawing.Color.White;
             this.Num4.Location = new System.Drawing.Point(15, 406);
@@ -118,6 +122,7 @@ namespace Project_Calculator
             // Num7
             // 
             this.Num7.BackColor = System.Drawing.Color.Black;
+            this.Num7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num7.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num7.ForeColor = System.Drawing.Color.White;
             this.Num7.Location = new System.Drawing.Point(15, 342);
@@ -131,6 +136,7 @@ namespace Project_Calculator
             // Num5
             // 
             this.Num5.BackColor = System.Drawing.Color.Black;
+            this.Num5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num5.ForeColor = System.Drawing.Color.White;
             this.Num5.Location = new System.Drawing.Point(119, 406);
@@ -144,6 +150,7 @@ namespace Project_Calculator
             // Num6
             // 
             this.Num6.BackColor = System.Drawing.Color.Black;
+            this.Num6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num6.ForeColor = System.Drawing.Color.White;
             this.Num6.Location = new System.Drawing.Point(223, 342);
@@ -157,6 +164,7 @@ namespace Project_Calculator
             // Num8
             // 
             this.Num8.BackColor = System.Drawing.Color.Black;
+            this.Num8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num8.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num8.ForeColor = System.Drawing.Color.White;
             this.Num8.Location = new System.Drawing.Point(119, 342);
@@ -170,6 +178,7 @@ namespace Project_Calculator
             // Num9
             // 
             this.Num9.BackColor = System.Drawing.Color.Black;
+            this.Num9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num9.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num9.ForeColor = System.Drawing.Color.White;
             this.Num9.Location = new System.Drawing.Point(223, 406);
@@ -223,6 +232,7 @@ namespace Project_Calculator
             // Num0
             // 
             this.Num0.BackColor = System.Drawing.Color.Black;
+            this.Num0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num0.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num0.ForeColor = System.Drawing.Color.White;
             this.Num0.Location = new System.Drawing.Point(15, 533);
@@ -236,6 +246,7 @@ namespace Project_Calculator
             // Decimal
             // 
             this.Decimal.BackColor = System.Drawing.Color.Black;
+            this.Decimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Decimal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Decimal.ForeColor = System.Drawing.Color.White;
             this.Decimal.Location = new System.Drawing.Point(223, 533);
@@ -382,70 +393,71 @@ namespace Project_Calculator
             this.percent.UseVisualStyleBackColor = false;
             this.percent.Click += new System.EventHandler(this.operation_click);
             // 
-            // button1
+            // MClear
             // 
-            this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(18, 166);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 41);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "MC";
-            this.button1.UseVisualStyleBackColor = false;
+            this.MClear.BackColor = System.Drawing.Color.Gray;
+            this.MClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MClear.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MClear.ForeColor = System.Drawing.Color.White;
+            this.MClear.Location = new System.Drawing.Point(18, 166);
+            this.MClear.Name = "MClear";
+            this.MClear.Size = new System.Drawing.Size(78, 41);
+            this.MClear.TabIndex = 26;
+            this.MClear.Text = "MC";
+            this.MClear.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // MSaved
             // 
-            this.button2.BackColor = System.Drawing.Color.Gray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(352, 166);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 41);
-            this.button2.TabIndex = 27;
-            this.button2.Text = "MS";
-            this.button2.UseVisualStyleBackColor = false;
+            this.MSaved.BackColor = System.Drawing.Color.Gray;
+            this.MSaved.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MSaved.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MSaved.ForeColor = System.Drawing.Color.White;
+            this.MSaved.Location = new System.Drawing.Point(352, 166);
+            this.MSaved.Name = "MSaved";
+            this.MSaved.Size = new System.Drawing.Size(76, 41);
+            this.MSaved.TabIndex = 27;
+            this.MSaved.Text = "MS";
+            this.MSaved.UseVisualStyleBackColor = false;
+            this.MSaved.Click += new System.EventHandler(this.MSaved_Click);
             // 
-            // button3
+            // MRead
             // 
-            this.button3.BackColor = System.Drawing.Color.Gray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(102, 166);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 41);
-            this.button3.TabIndex = 28;
-            this.button3.Text = "MR";
-            this.button3.UseVisualStyleBackColor = false;
+            this.MRead.BackColor = System.Drawing.Color.Gray;
+            this.MRead.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MRead.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MRead.ForeColor = System.Drawing.Color.White;
+            this.MRead.Location = new System.Drawing.Point(102, 166);
+            this.MRead.Name = "MRead";
+            this.MRead.Size = new System.Drawing.Size(78, 41);
+            this.MRead.TabIndex = 28;
+            this.MRead.Text = "MR";
+            this.MRead.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // MPlus
             // 
-            this.button4.BackColor = System.Drawing.Color.Gray;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(186, 166);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(78, 41);
-            this.button4.TabIndex = 29;
-            this.button4.Text = "M+";
-            this.button4.UseVisualStyleBackColor = false;
+            this.MPlus.BackColor = System.Drawing.Color.Gray;
+            this.MPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MPlus.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MPlus.ForeColor = System.Drawing.Color.White;
+            this.MPlus.Location = new System.Drawing.Point(186, 166);
+            this.MPlus.Name = "MPlus";
+            this.MPlus.Size = new System.Drawing.Size(78, 41);
+            this.MPlus.TabIndex = 29;
+            this.MPlus.Text = "M+";
+            this.MPlus.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // MSubtract
             // 
-            this.button5.BackColor = System.Drawing.Color.Gray;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(269, 166);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(78, 41);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "M-";
-            this.button5.UseVisualStyleBackColor = false;
+            this.MSubtract.BackColor = System.Drawing.Color.Gray;
+            this.MSubtract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MSubtract.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MSubtract.ForeColor = System.Drawing.Color.White;
+            this.MSubtract.Location = new System.Drawing.Point(269, 166);
+            this.MSubtract.Name = "MSubtract";
+            this.MSubtract.Size = new System.Drawing.Size(78, 41);
+            this.MSubtract.TabIndex = 30;
+            this.MSubtract.Text = "M-";
+            this.MSubtract.UseVisualStyleBackColor = false;
             // 
             // Body
             // 
@@ -453,11 +465,11 @@ namespace Project_Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(446, 629);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MSubtract);
+            this.Controls.Add(this.MPlus);
+            this.Controls.Add(this.MRead);
+            this.Controls.Add(this.MSaved);
+            this.Controls.Add(this.MClear);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.squareroot);
             this.Controls.Add(this.square);
@@ -520,11 +532,11 @@ namespace Project_Calculator
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button squareroot;
         private System.Windows.Forms.Button percent;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button MClear;
+        private System.Windows.Forms.Button MSaved;
+        private System.Windows.Forms.Button MRead;
+        private System.Windows.Forms.Button MPlus;
+        private System.Windows.Forms.Button MSubtract;
 
         public EventHandler textBox1_TextChanged { get; private set; }
     }

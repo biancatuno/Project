@@ -15,12 +15,18 @@ namespace Project_Calculator
         Double values = 0;
         String operation = "";
         bool OperationPerformed = false;
+        private double memory_button;
 
         public Body()
         {
             InitializeComponent();
+
+            //Memory Buttons
+            MClear.Enabled = false;
+            MRead.Enabled = false;
         }
 
+        // Numerical Buttons
         private void button_Click(object sender, EventArgs e)
         {
             if ((textbox.Text == "0") || (OperationPerformed))
@@ -49,7 +55,6 @@ namespace Project_Calculator
             }
             else
             {
-
                 operation = num.Text;
                 values = Double.Parse(textbox.Text);
                 Result.Text = values + " " + operation;
@@ -60,12 +65,14 @@ namespace Project_Calculator
         private void ClearEntry_Click(object sender, EventArgs e)
         {
             textbox.Text = "0";
+            Result.Text = "";
         }
 
         private void Clear_Click(object sender, EventArgs e)
         {
             textbox.Text = "0";
             values = 0;
+            Result.Text = "";
         }
 
         private void Equal_Click(object sender, EventArgs e)
@@ -87,11 +94,11 @@ namespace Project_Calculator
                 case "%":
                     textbox.Text = (values / 100).ToString();
                     break;
-                case "^":
-                    textbox.Text = (Math.Pow(values, Double.Parse(textbox.Text))).ToString();
-                    break;
                 case "1/x":
                     textbox.Text = (1 / values).ToString();
+                    break;
+                case "^":
+                    textbox.Text = (Math.Pow(values, Double.Parse(textbox.Text))).ToString();
                     break;
                 case "√":
                     textbox.Text = (Math.Sqrt(Double.Parse(textbox.Text))).ToString();
@@ -102,6 +109,14 @@ namespace Project_Calculator
             }
             values = Double.Parse(textbox.Text);
             Result.Text = "";
+        }
+
+        // Memory Saved Button
+        private void MSaved_Click(object sender, EventArgs e)
+        {
+            memory_button = Double.Parse(textbox.Text);
+            MClear.Enabled = true;
+            MRead.Enabled = true;
         }
     }
 }
