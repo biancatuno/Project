@@ -56,6 +56,11 @@ namespace Project_Calculator
             this.square = new System.Windows.Forms.Button();
             this.squareroot = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Num1
@@ -63,9 +68,9 @@ namespace Project_Calculator
             this.Num1.BackColor = System.Drawing.Color.Black;
             this.Num1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num1.ForeColor = System.Drawing.Color.White;
-            this.Num1.Location = new System.Drawing.Point(15, 466);
+            this.Num1.Location = new System.Drawing.Point(15, 469);
             this.Num1.Name = "Num1";
-            this.Num1.Size = new System.Drawing.Size(101, 70);
+            this.Num1.Size = new System.Drawing.Size(101, 60);
             this.Num1.TabIndex = 0;
             this.Num1.Text = "1";
             this.Num1.UseVisualStyleBackColor = false;
@@ -76,9 +81,9 @@ namespace Project_Calculator
             this.Num2.BackColor = System.Drawing.Color.Black;
             this.Num2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num2.ForeColor = System.Drawing.Color.White;
-            this.Num2.Location = new System.Drawing.Point(119, 466);
+            this.Num2.Location = new System.Drawing.Point(119, 469);
             this.Num2.Name = "Num2";
-            this.Num2.Size = new System.Drawing.Size(101, 70);
+            this.Num2.Size = new System.Drawing.Size(101, 60);
             this.Num2.TabIndex = 1;
             this.Num2.Text = "2";
             this.Num2.UseVisualStyleBackColor = false;
@@ -89,9 +94,9 @@ namespace Project_Calculator
             this.Num3.BackColor = System.Drawing.Color.Black;
             this.Num3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num3.ForeColor = System.Drawing.Color.White;
-            this.Num3.Location = new System.Drawing.Point(223, 466);
+            this.Num3.Location = new System.Drawing.Point(223, 469);
             this.Num3.Name = "Num3";
-            this.Num3.Size = new System.Drawing.Size(101, 70);
+            this.Num3.Size = new System.Drawing.Size(101, 60);
             this.Num3.TabIndex = 2;
             this.Num3.Text = "3";
             this.Num3.UseVisualStyleBackColor = false;
@@ -102,9 +107,9 @@ namespace Project_Calculator
             this.Num4.BackColor = System.Drawing.Color.Black;
             this.Num4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num4.ForeColor = System.Drawing.Color.White;
-            this.Num4.Location = new System.Drawing.Point(15, 393);
+            this.Num4.Location = new System.Drawing.Point(15, 406);
             this.Num4.Name = "Num4";
-            this.Num4.Size = new System.Drawing.Size(101, 70);
+            this.Num4.Size = new System.Drawing.Size(101, 58);
             this.Num4.TabIndex = 3;
             this.Num4.Text = "4";
             this.Num4.UseVisualStyleBackColor = false;
@@ -115,9 +120,9 @@ namespace Project_Calculator
             this.Num7.BackColor = System.Drawing.Color.Black;
             this.Num7.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num7.ForeColor = System.Drawing.Color.White;
-            this.Num7.Location = new System.Drawing.Point(15, 320);
+            this.Num7.Location = new System.Drawing.Point(15, 342);
             this.Num7.Name = "Num7";
-            this.Num7.Size = new System.Drawing.Size(101, 70);
+            this.Num7.Size = new System.Drawing.Size(101, 58);
             this.Num7.TabIndex = 4;
             this.Num7.Text = "7";
             this.Num7.UseVisualStyleBackColor = false;
@@ -128,9 +133,9 @@ namespace Project_Calculator
             this.Num5.BackColor = System.Drawing.Color.Black;
             this.Num5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num5.ForeColor = System.Drawing.Color.White;
-            this.Num5.Location = new System.Drawing.Point(119, 393);
+            this.Num5.Location = new System.Drawing.Point(119, 406);
             this.Num5.Name = "Num5";
-            this.Num5.Size = new System.Drawing.Size(101, 70);
+            this.Num5.Size = new System.Drawing.Size(101, 57);
             this.Num5.TabIndex = 5;
             this.Num5.Text = "5";
             this.Num5.UseVisualStyleBackColor = false;
@@ -141,9 +146,9 @@ namespace Project_Calculator
             this.Num6.BackColor = System.Drawing.Color.Black;
             this.Num6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num6.ForeColor = System.Drawing.Color.White;
-            this.Num6.Location = new System.Drawing.Point(223, 393);
+            this.Num6.Location = new System.Drawing.Point(223, 342);
             this.Num6.Name = "Num6";
-            this.Num6.Size = new System.Drawing.Size(101, 70);
+            this.Num6.Size = new System.Drawing.Size(101, 58);
             this.Num6.TabIndex = 6;
             this.Num6.Text = "6";
             this.Num6.UseVisualStyleBackColor = false;
@@ -154,9 +159,9 @@ namespace Project_Calculator
             this.Num8.BackColor = System.Drawing.Color.Black;
             this.Num8.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num8.ForeColor = System.Drawing.Color.White;
-            this.Num8.Location = new System.Drawing.Point(119, 320);
+            this.Num8.Location = new System.Drawing.Point(119, 342);
             this.Num8.Name = "Num8";
-            this.Num8.Size = new System.Drawing.Size(101, 70);
+            this.Num8.Size = new System.Drawing.Size(101, 58);
             this.Num8.TabIndex = 7;
             this.Num8.Text = "8";
             this.Num8.UseVisualStyleBackColor = false;
@@ -167,9 +172,9 @@ namespace Project_Calculator
             this.Num9.BackColor = System.Drawing.Color.Black;
             this.Num9.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num9.ForeColor = System.Drawing.Color.White;
-            this.Num9.Location = new System.Drawing.Point(223, 320);
+            this.Num9.Location = new System.Drawing.Point(223, 406);
             this.Num9.Name = "Num9";
-            this.Num9.Size = new System.Drawing.Size(101, 70);
+            this.Num9.Size = new System.Drawing.Size(101, 57);
             this.Num9.TabIndex = 8;
             this.Num9.Text = "9";
             this.Num9.UseVisualStyleBackColor = false;
@@ -178,10 +183,10 @@ namespace Project_Calculator
             // Minus
             // 
             this.Minus.BackColor = System.Drawing.Color.Gray;
-            this.Minus.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Minus.Location = new System.Drawing.Point(327, 320);
+            this.Minus.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Minus.Location = new System.Drawing.Point(327, 342);
             this.Minus.Name = "Minus";
-            this.Minus.Size = new System.Drawing.Size(101, 70);
+            this.Minus.Size = new System.Drawing.Size(101, 58);
             this.Minus.TabIndex = 9;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = false;
@@ -191,9 +196,9 @@ namespace Project_Calculator
             // 
             this.Multiply.BackColor = System.Drawing.Color.Gray;
             this.Multiply.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Multiply.Location = new System.Drawing.Point(327, 247);
+            this.Multiply.Location = new System.Drawing.Point(327, 282);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(101, 70);
+            this.Multiply.Size = new System.Drawing.Size(101, 54);
             this.Multiply.TabIndex = 10;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = false;
@@ -204,9 +209,9 @@ namespace Project_Calculator
             this.Divide.BackColor = System.Drawing.Color.Gray;
             this.Divide.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Divide.ForeColor = System.Drawing.Color.Black;
-            this.Divide.Location = new System.Drawing.Point(327, 174);
+            this.Divide.Location = new System.Drawing.Point(327, 223);
             this.Divide.Name = "Divide";
-            this.Divide.Size = new System.Drawing.Size(101, 70);
+            this.Divide.Size = new System.Drawing.Size(101, 53);
             this.Divide.TabIndex = 11;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = false;
@@ -217,7 +222,7 @@ namespace Project_Calculator
             this.Num0.BackColor = System.Drawing.Color.Black;
             this.Num0.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num0.ForeColor = System.Drawing.Color.White;
-            this.Num0.Location = new System.Drawing.Point(15, 539);
+            this.Num0.Location = new System.Drawing.Point(15, 533);
             this.Num0.Name = "Num0";
             this.Num0.Size = new System.Drawing.Size(205, 70);
             this.Num0.TabIndex = 12;
@@ -230,7 +235,7 @@ namespace Project_Calculator
             this.Decimal.BackColor = System.Drawing.Color.Black;
             this.Decimal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Decimal.ForeColor = System.Drawing.Color.White;
-            this.Decimal.Location = new System.Drawing.Point(223, 539);
+            this.Decimal.Location = new System.Drawing.Point(223, 533);
             this.Decimal.Name = "Decimal";
             this.Decimal.Size = new System.Drawing.Size(101, 70);
             this.Decimal.TabIndex = 13;
@@ -242,9 +247,9 @@ namespace Project_Calculator
             // 
             this.Add.BackColor = System.Drawing.Color.Gray;
             this.Add.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Add.Location = new System.Drawing.Point(327, 393);
+            this.Add.Location = new System.Drawing.Point(327, 406);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(101, 70);
+            this.Add.Size = new System.Drawing.Size(101, 57);
             this.Add.TabIndex = 14;
             this.Add.Text = "+";
             this.Add.UseVisualStyleBackColor = false;
@@ -255,9 +260,9 @@ namespace Project_Calculator
             this.Equal.BackColor = System.Drawing.Color.Green;
             this.Equal.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Equal.ForeColor = System.Drawing.Color.White;
-            this.Equal.Location = new System.Drawing.Point(327, 466);
+            this.Equal.Location = new System.Drawing.Point(327, 469);
             this.Equal.Name = "Equal";
-            this.Equal.Size = new System.Drawing.Size(101, 143);
+            this.Equal.Size = new System.Drawing.Size(101, 134);
             this.Equal.TabIndex = 15;
             this.Equal.Text = "=";
             this.Equal.UseVisualStyleBackColor = false;
@@ -268,9 +273,9 @@ namespace Project_Calculator
             this.Clear.BackColor = System.Drawing.Color.Gray;
             this.Clear.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Clear.ForeColor = System.Drawing.Color.Black;
-            this.Clear.Location = new System.Drawing.Point(223, 174);
+            this.Clear.Location = new System.Drawing.Point(223, 223);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(101, 70);
+            this.Clear.Size = new System.Drawing.Size(101, 53);
             this.Clear.TabIndex = 16;
             this.Clear.Text = "C";
             this.Clear.UseVisualStyleBackColor = false;
@@ -281,9 +286,9 @@ namespace Project_Calculator
             this.ClearEntry.BackColor = System.Drawing.Color.Gray;
             this.ClearEntry.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ClearEntry.ForeColor = System.Drawing.Color.Black;
-            this.ClearEntry.Location = new System.Drawing.Point(119, 174);
+            this.ClearEntry.Location = new System.Drawing.Point(119, 223);
             this.ClearEntry.Name = "ClearEntry";
-            this.ClearEntry.Size = new System.Drawing.Size(101, 70);
+            this.ClearEntry.Size = new System.Drawing.Size(101, 53);
             this.ClearEntry.TabIndex = 17;
             this.ClearEntry.Text = "CE";
             this.ClearEntry.UseVisualStyleBackColor = false;
@@ -319,9 +324,9 @@ namespace Project_Calculator
             this.fraction.BackColor = System.Drawing.Color.Gray;
             this.fraction.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.fraction.ForeColor = System.Drawing.Color.Black;
-            this.fraction.Location = new System.Drawing.Point(15, 247);
+            this.fraction.Location = new System.Drawing.Point(15, 282);
             this.fraction.Name = "fraction";
-            this.fraction.Size = new System.Drawing.Size(101, 70);
+            this.fraction.Size = new System.Drawing.Size(101, 54);
             this.fraction.TabIndex = 22;
             this.fraction.Text = "1/x";
             this.fraction.UseVisualStyleBackColor = false;
@@ -332,9 +337,9 @@ namespace Project_Calculator
             this.square.BackColor = System.Drawing.Color.Gray;
             this.square.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.square.ForeColor = System.Drawing.Color.Black;
-            this.square.Location = new System.Drawing.Point(119, 247);
+            this.square.Location = new System.Drawing.Point(119, 282);
             this.square.Name = "square";
-            this.square.Size = new System.Drawing.Size(101, 70);
+            this.square.Size = new System.Drawing.Size(101, 54);
             this.square.TabIndex = 23;
             this.square.Text = "^";
             this.square.UseVisualStyleBackColor = false;
@@ -345,9 +350,9 @@ namespace Project_Calculator
             this.squareroot.BackColor = System.Drawing.Color.Gray;
             this.squareroot.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.squareroot.ForeColor = System.Drawing.Color.Black;
-            this.squareroot.Location = new System.Drawing.Point(223, 247);
+            this.squareroot.Location = new System.Drawing.Point(223, 282);
             this.squareroot.Name = "squareroot";
-            this.squareroot.Size = new System.Drawing.Size(101, 70);
+            this.squareroot.Size = new System.Drawing.Size(101, 54);
             this.squareroot.TabIndex = 24;
             this.squareroot.Text = "√";
             this.squareroot.UseVisualStyleBackColor = false;
@@ -358,13 +363,73 @@ namespace Project_Calculator
             this.percent.BackColor = System.Drawing.Color.Gray;
             this.percent.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.percent.ForeColor = System.Drawing.Color.Black;
-            this.percent.Location = new System.Drawing.Point(15, 174);
+            this.percent.Location = new System.Drawing.Point(15, 223);
             this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(101, 70);
+            this.percent.Size = new System.Drawing.Size(101, 54);
             this.percent.TabIndex = 25;
             this.percent.Text = "%";
             this.percent.UseVisualStyleBackColor = false;
             this.percent.Click += new System.EventHandler(this.operation_click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Gray;
+            this.button1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(16, 163);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(78, 54);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "MC";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Gray;
+            this.button2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(351, 163);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(78, 54);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "MS";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Gray;
+            this.button3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(100, 163);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(78, 54);
+            this.button3.TabIndex = 28;
+            this.button3.Text = "MR";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Gray;
+            this.button4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(184, 163);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(78, 54);
+            this.button4.TabIndex = 29;
+            this.button4.Text = "M+";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Gray;
+            this.button5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(267, 163);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(78, 54);
+            this.button5.TabIndex = 30;
+            this.button5.Text = "M-";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // Body
             // 
@@ -372,6 +437,11 @@ namespace Project_Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(446, 629);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.squareroot);
             this.Controls.Add(this.square);
@@ -434,6 +504,11 @@ namespace Project_Calculator
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button squareroot;
         private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
 
         public EventHandler textBox1_TextChanged { get; private set; }
     }
