@@ -153,7 +153,7 @@ namespace Project_Calculator
             this.Num6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num6.ForeColor = System.Drawing.Color.White;
-            this.Num6.Location = new System.Drawing.Point(223, 342);
+            this.Num6.Location = new System.Drawing.Point(223, 405);
             this.Num6.Name = "Num6";
             this.Num6.Size = new System.Drawing.Size(101, 58);
             this.Num6.TabIndex = 6;
@@ -181,7 +181,7 @@ namespace Project_Calculator
             this.Num9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Num9.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Num9.ForeColor = System.Drawing.Color.White;
-            this.Num9.Location = new System.Drawing.Point(223, 406);
+            this.Num9.Location = new System.Drawing.Point(223, 343);
             this.Num9.Name = "Num9";
             this.Num9.Size = new System.Drawing.Size(101, 57);
             this.Num9.TabIndex = 8;

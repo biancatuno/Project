@@ -61,7 +61,6 @@ namespace Project_Calculator
                 OperationPerformed = true;
             }
         }
-
         private void ClearEntry_Click(object sender, EventArgs e)
         {
             textbox.Text = "0";
